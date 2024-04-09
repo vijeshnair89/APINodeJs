@@ -29,7 +29,7 @@ class App extends Component {
 
   getUsers() {
 
-    axios.get("https://<your-api-id>.execute-api.us-east-1.amazonaws.com/prod/api/users")
+    axios.get("https://r4rf47rm5m.execute-api.us-east-1.amazonaws.com/prod/api/getUsers")
       .then(res => {
         console.log(res.data)
         const items = []
